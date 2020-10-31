@@ -5,6 +5,6 @@ import {
 
 let userRouter = express.Router();
 
-userRouter.post{'/', create};
+userRouter.post('/', create);
 
 export default userRouter;

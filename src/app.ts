@@ -5,6 +5,7 @@ import http from 'http';
 import configData from './environment';
 import routes from './routes';
 import mongoose from 'mongoose';
+import UserRouter from './api/user/index';
 
 const app = express();
 

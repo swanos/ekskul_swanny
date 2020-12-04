@@ -54,5 +54,5 @@ function startServer(){
         console.log('Express server listening on %d, in %s mode %s', configData.port, configData.host, configData.env);
     });
 }
-
+export default server;
 setImmediate(startServer);
